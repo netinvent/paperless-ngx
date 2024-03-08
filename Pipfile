@@ -34,7 +34,13 @@ inotifyrecursive = "~=0.3"
 langdetect = "*"
 mysqlclient = "*"
 nltk = "*"
-ocrmypdf = "~=15.4"
+ocrmypdf = "~=16.1"
+# EasyOCR dependencies
+ocrmypdf-easyocr@https://github.com/ocrmypdf/OCRmyPDF-EasyOCR/archive/refs/heads/main.zip
+opencv-python-headless = "*" #  See https://github.com/ocrmypdf/OCRmyPDF-EasyOCR/pull/6
+torchvision = "*"
+imagecodecs = "*"
+
 pathvalidate = "*"
 pdf2image = "*"
 psycopg2 = "*"
