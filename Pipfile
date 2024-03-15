@@ -36,8 +36,10 @@ mysqlclient = "*"
 nltk = "*"
 ocrmypdf = "~=16.1"
 # EasyOCR dependencies
-ocrmypdf-easyocr@https://github.com/ocrmypdf/OCRmyPDF-EasyOCR/archive/refs/heads/main.zip
-opencv-python-headless = "*" #  See https://github.com/ocrmypdf/OCRmyPDF-EasyOCR/pull/6
+ocrmypdf-easyocr@https://github.com/netinvent/OCRmyPDF-EasyOCR/archive/refs/heads/recursive-daemon-allowed.zip
+# In order for this to work, we need to uninstall both opencv-python and opencv-python-headless, then reinstall opencv-python-headless
+#  See https://github.com/ocrmypdf/OCRmyPDF-EasyOCR/pull/6
+opencv-python-headless = "*"
 torchvision = "*"
 imagecodecs = "*"
 
